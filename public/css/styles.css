@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ddd;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+input {
+  margin: 10px;
+}
+
+button{
+  width: 10%;
+}
+
+p{
+  color: #444;
+  margin-top: 10px;
+}
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* success page */
+.container{
+  margin: auto;
+  background: lightgreen;
+  text-align: center;
+  height: 200px;
+}
+
+.container h1,
+.container p{
+  color: #333;
+}
+
+/* failure page */
+.container-fail{
+  margin: auto;
+  background: rgb(236, 109, 109);
+  text-align: center;
+  height: 200px;
+  color: #333;
+}
+
+.btn-try{
+  background: lightyellow;
+  padding: 5px;
+  border-radius: 7px;
+}
